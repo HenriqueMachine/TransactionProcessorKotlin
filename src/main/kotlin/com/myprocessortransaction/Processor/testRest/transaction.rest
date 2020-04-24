@@ -1,0 +1,34 @@
+POST
+http://localhost:8080/transaction
+@Content-Type: application/json
+{
+ "nome": "Henrique Menezes",
+ "cartao_credito": "5476045573590000",
+ "data_compra": "2021-02-14",
+ "valor_compra": 10000.00,
+ "parcelamento":3,
+ "bandeira": "AMEX",
+ "operacao": "CREDITO"
+}
+%%%
+
+# Duration: 1117 ms
+# URL: http://localhost:8080/transaction
+
+# HTTP/1.1 200
+
+@Content-Type: application/json;charset=UTF-8
+@Transfer-Encoding: chunked
+@Date: Thu, 19 Mar 2020 21:58:04 GMT
+@Keep-Alive: timeout=60
+@Connection: keep-alive
+
+{
+  "transacao_success": true,
+  "cartao_credito_mascarado": "0000",
+  "total_parcelas": 3,
+
+  "valor_compra": 10000.0,
+  "valor_pagamento": 9510.0,
+  "percentual_repasse": "4.9%"
+}
