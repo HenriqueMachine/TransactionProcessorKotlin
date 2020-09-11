@@ -1,4 +1,4 @@
-package com.myprocessortransaction.Processor
+package com.myprocessortransaction.processor
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

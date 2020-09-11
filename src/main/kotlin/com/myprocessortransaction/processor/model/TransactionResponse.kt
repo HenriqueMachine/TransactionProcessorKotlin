@@ -1,4 +1,4 @@
-package com.myprocessortransaction.Processor.model
+package com.myprocessortransaction.processor.model
 
 data class TransactionResponse (
         val transacao_success : Boolean,

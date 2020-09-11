@@ -1,4 +1,4 @@
-package com.myprocessortransaction.Processor
+package com.myprocessortransaction.processor
 
 import org.junit.Test
 import org.junit.runner.RunWith

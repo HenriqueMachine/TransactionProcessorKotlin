@@ -1,9 +1,9 @@
-package com.myprocessortransaction.Processor.controllers
+package com.myprocessortransaction.processor.controllers
 
-import com.myprocessortransaction.Processor.model.Payments
-import com.myprocessortransaction.Processor.model.SimpleError
-import com.myprocessortransaction.Processor.model.TransactionOperationRequest
-import com.myprocessortransaction.Processor.model.TransactionResponse
+import com.myprocessortransaction.processor.model.Payments
+import com.myprocessortransaction.processor.model.SimpleError
+import com.myprocessortransaction.processor.model.TransactionOperationRequest
+import com.myprocessortransaction.processor.model.TransactionResponse
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

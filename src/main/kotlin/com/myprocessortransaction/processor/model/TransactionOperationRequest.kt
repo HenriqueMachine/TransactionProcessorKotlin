@@ -1,4 +1,4 @@
-package com.myprocessortransaction.Processor.model
+package com.myprocessortransaction.processor.model
 
 data class TransactionOperationRequest(
         val nome : String = "",
